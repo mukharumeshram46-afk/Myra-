@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Namu Assistant</string>
+    <string name="accessibility_service_description">Namu Assistant Accessibility Engine empowers autonomous mobile control, reading on-screen elements, auto-tapping, swiping, launching apps, and executing AI actions.</string>
+</resources>

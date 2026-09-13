@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Namu Mobile Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes pulseGlow {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 15px rgba(0, 255, 204, 0.6)); }
+        50% { transform: scale(1.04); filter: drop-shadow(0 0 28px rgba(255, 0, 128, 0.8)); }
+      }
+      .namu-glow {
+        animation: pulseGlow 3s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body class="bg-[#050811] text-white select-none overflow-hidden m-0 p-0 font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

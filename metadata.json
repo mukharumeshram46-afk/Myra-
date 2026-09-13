@@ -1,0 +1,6 @@
+{
+  "name": "Namu Assistant",
+  "description": "Hyper-intelligent multimodal mobile OS assistant with Accessibility control, floating HUD, and Gemini Live integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
